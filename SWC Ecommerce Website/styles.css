@@ -396,6 +396,19 @@ footer {
     align-items: center;
 }
 
+.shopButton {
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.shopButton:hover {
+    background-color: black;
+    transition: 1s ease-in-out;
+}
+
+
 .shopBtn a {
     color: black;
     text-decoration: none;
@@ -403,6 +416,12 @@ footer {
     font-family: 'Roboto';
     font-weight: 100;
     margin: 10px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.shopBtn a:hover {
+    color: white;
+    transition: 1s ease-in-out;
 }
 
 .textContainer {
