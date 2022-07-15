@@ -49,10 +49,13 @@ body {
 .logo {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
-    font-weight: 300;
     letter-spacing: 1px;
     justify-content: center;
     cursor: pointer;
+}
+
+h1 {
+    font-weight: 100;
 }
 
 .logo a {
