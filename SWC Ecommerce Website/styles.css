@@ -281,15 +281,25 @@ footer {
     font-size: 20px;
 }
 .fButton {
-    background-color: white;
+    background-color: transparent;
     color: black;
     cursor: pointer;
     border: 1px solid black;
+    text-transform: uppercase;
+    width: 75px;
+    height: 25px;
 }
 
 .fButton:hover {
     background-color: black;
     color: white;
+    transition: 1s ease-in-out;
+}
+
+.fInput {
+    height: 25px;
+    border: 1px black solid;
+    background-color: transparent;
 }
 
 .fListItem a{
