@@ -535,8 +535,8 @@ footer {
     font-size: 15px;
     border: 1px solid black;
     cursor: pointer;
-    border-radius: 15px;
     height: 30px;
+    min-width: 50px;
     text-transform: uppercase;
 
 }
@@ -561,11 +561,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* position: relative; */
+    margin-bottom: 40px;
 }
 
 .shopImg {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     margin: auto;
     border-radius: 50%;
 }
@@ -593,12 +595,34 @@ footer {
     color: black;
     cursor: pointer;
     border: 1px solid black;
-    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    /* position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto; */
+    background-color: transparent;
+    /* opacity: 0; */
 }
 
-.buyBtn:hover{
+.buyBtn:hover {
     background-color: black;
     color: white;
+    transition: 1s ease-in-out;
+}
+
+.shopImg:hover {
+    opacity: 50%;
     transition: 1s ease-in-out;
 }
 

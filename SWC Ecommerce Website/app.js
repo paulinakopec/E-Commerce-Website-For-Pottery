@@ -85,7 +85,7 @@ function displayShopItems(shopItems) {
       <header>
         <h4 class="productName">${item.title}</h4>
         <h4 class="price">${item.price} PLN</h4>
-        <button class="buyBtn">BUY</button>
+        <button class="buyBtn">BUY ME</button>
       </header>
     </div>
   </article>`;    
