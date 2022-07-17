@@ -16,7 +16,6 @@ body {
 .navLine {
     width: 90vw;
     opacity: 50%;
-    margin: 0 20px;
 }
 
 /* NAVBAR */
@@ -28,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 .socialBtns, .userBtns {
@@ -274,7 +273,7 @@ h1 {
 footer {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 247, 236);
+    background-color: whitesmoke;
 }
 
 .fMenuTitle {
