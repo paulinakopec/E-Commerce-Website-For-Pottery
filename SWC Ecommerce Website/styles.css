@@ -388,18 +388,26 @@ footer {
 
 .footerRight {
     display: flex;
-    align-items: flex-end;
-    margin-right: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 100px;
 }
 
-.fSocialIcons {
+.contactItem {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
-.fSocialIcon {
-    margin-left: 10px;
+.contactImg {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contactImg:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
 /* HOME SECTION */
@@ -927,7 +935,7 @@ input[type="submit"]:hover {
     }
 
     .copyright {
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .filterBtn {
@@ -970,5 +978,43 @@ input[type="submit"]:hover {
     .otherInfo {
         width: 90%;
         font-size: 15px;
+    }
+
+    .newsletter {
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    h2.newsletterTitle {
+        font-size: 25px;
+    }
+
+    .newsletter p {
+        font-size: 10px;
+    }
+
+    input.newsletterInput {
+        width: 150px;
+    }
+
+    button.newsletterButton {
+        width: 150px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footerLeft {
+        padding-top: 0px;
+    }
+
+    .footerMiddle {
+        display: none;
+    }
+
+    .footerRight {
+        margin-left: 20px;
     }
 }
